@@ -1,0 +1,7 @@
+services:
+  fastapi:
+    public: true
+    build: .
+    replicas: 1
+    ports:
+      - 6868
